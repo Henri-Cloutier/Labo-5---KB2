@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <title>Laboratoire 5 - KB2</title>
+    <style>
+        .main{
+
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 5px;
+    margin-top: 5px;
+}
+.boite{
+    border: solid black 0.1px;
+    flex: 1;
+}
+.backgroundBleu{
+    background-color: rgb(222, 227, 255);
+    flex-basis: 30%;
+}
+.backgroundBlanc{
+    background-color: white;
+    flex-basis: 40%;
+}
+.texte{
+    text-align: justify;
+    padding: 5px;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.image{
+    width: 100%;
+    max-width: 300px;
+}
+.dispositionImage{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.titreSecondaire{
+    color: gray;
+    font-family: Oswald;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.titrePrimaire{
+    color: black;
+    font-family: Oswald;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 800px){
+    .dispositionImage{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+    }
+    .backgroundBlanc{
+        width: 50%;
+    }
+    .bottom{
+        margin-top: 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="header">Mon site web</div>
+
+        <div class="flexbox">
+            <div class="boite backgroundBleu">
+                <div class="titreSecondaire">Titre Secondaire</div>
+                <div class="dispositionImage">
+                    <div class="texte">Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people so basket ladies window expect. Supply as so period it enough income he genius. Themselves acceptance bed sympathize get dissimilar way admiration son. Design for are edward regret met lovers. This are calm case roof and.
+
+                        Carried nothing on am warrant towards. Polite in of in oh needed itself silent course. Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing pursuit minutes far. Same do seen head am part it dear open to. Whatever may scarcely judgment had.
+                    </div>
+                    <img src="./images/image.jpg" alt="image" class="image">
+                </div>
+            </div>
+            <div class="boite backgroundBlanc">
+                <div class="titrePrimaire">Titre Primaire</div>
+                <div class="texte">
+                    Wrote water woman of heart it total other. By in entirely securing suitable graceful at families improved. Zealously few furniture repulsive was agreeable consisted difficult. Collected breakfast estimable questions in to favourite it. Known he place worth words it as to. Spoke now noise off smart her ready.
+
+                    John draw real poor on call my from. May she mrs furnished discourse extremely. Ask doubt noisy shade guest did built her him. Ignorant repeated hastened it do. Consider bachelor he yourself expenses no. Her itself active giving for expect vulgar months. Discovery commanded fat mrs remaining son she principle middleton neglected. Be miss he in post sons held. No tried is defer do money scale rooms.
+                    
+                    On recommend tolerably my belonging or am. Mutual has cannot beauty indeed now sussex merely you. It possible no husbands jennings ye offended packages pleasant he. Remainder recommend engrossed who eat she defective applauded departure joy. Get dissimilar not introduced day her apartments. Fully as taste he mr do smile abode every. Luckily offered article led lasting country minutes nor old. Happen people things oh is oppose up parish effect. Law handsome old outweigh humoured far appetite.
+                    
+                    Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.
+                </div>
+            </div>
+            <div class="boite backgroundBleu">
+                <div class="titreSecondaire">Titre Secondaire</div>
+                <div class="dispositionImage">
+                    <div class="texte">Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people so basket ladies window expect. Supply as so period it enough income he genius. Themselves acceptance bed sympathize get dissimilar way admiration son. Design for are edward regret met lovers. This are calm case roof and.
+
+                        Carried nothing on am warrant towards. Polite in of in oh needed itself silent course. Assistance travelling so especially do prosperous appearance mr no celebrated. Wanted easily in my called formed suffer. Songs hoped sense as taken ye mirth at. Believe fat how six drawing pursuit minutes far. Same do seen head am part it dear open to. Whatever may scarcely judgment had.
+                    </div>
+                    <img src="./images/image.jpg" alt="image" class="image">
+                </div>
+            </div>
+        </div>
+        <div class="bottom">auteur: Henri Cloutier</div>
+    </div>
+</body>
+</html>
